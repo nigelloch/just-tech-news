@@ -1,26 +1,24 @@
 {
-  "name": "just-tech-news",
+  "name": "newsfeed-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nigelloch/just-tech-news.git"
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nigelloch/just-tech-news/issues"
-  },
-  "homepage": "https://github.com/nigelloch/just-tech-news#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "dotenv": "^15.0.0",
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.2",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.15.0"
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.22.5"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
